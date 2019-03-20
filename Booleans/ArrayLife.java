@@ -107,5 +107,6 @@ public static void main(String []args) {
 	ArrayLife game1=new ArrayLife(args[0]);
 	game1.play();
 }
-
+//Program Argument should be of type "NAME:AUTHOR:WIDTH:HEIGHT:STARTUPPERCOL:STARTUPPERROW:CELLS "
+ // For example "Glider:Richard Guy:20:20:1:1:010 001 111"
 }
