@@ -118,5 +118,6 @@ public static void main(String []args){
 PackedLife Game1=new PackedLife(args[0]);
 Game1.play();
 }
-
+//Program Argument should be of type "NAME:AUTHOR:WIDTH:HEIGHT:STARTUPPERCOL:STARTUPPERROW:CELLS "
+ // For example "Glider:Richard Guy:20:20:1:1:010 001 111"
 }
